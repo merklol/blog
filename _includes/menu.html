@@ -4,7 +4,11 @@
       {% include social-icons.html %}
     </nav>
     {% for item in site.data.settings.menu %}
+    {% if item == empty %}
+    <a href="{{ site.github.url }}">{{ item.name }}</a>
+    {% else %}
     <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a>
+    {% endif %}
     {% endfor %}
   </nav>
 </div>
