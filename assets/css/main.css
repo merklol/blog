@@ -144,7 +144,9 @@ hr {
 
 @media (max-width: 30rem) {
   .image-align-right {
-    display: none;
+    float: none;
+    margin: 0 auto;
+    display: block;
   }
 }
 
