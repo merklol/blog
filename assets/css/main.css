@@ -136,6 +136,11 @@ hr {
     display: block;
 }
 
+.image-align-right {
+  float: right;
+  margin: 0rem .5rem;
+}
+
 /*
   Thumbnail
 */
