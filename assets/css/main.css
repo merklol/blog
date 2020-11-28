@@ -136,9 +136,16 @@ hr {
     display: block;
 }
 
+
 .image-align-right {
   float: right;
   margin: 0rem .5rem;
+}
+
+@media (max-width: 30rem) {
+  .image-align-right {
+    display: none;
+  }
 }
 
 /*
