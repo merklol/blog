@@ -130,6 +130,12 @@ hr {
   flex-direction: column;
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 /*
   Thumbnail
 */
